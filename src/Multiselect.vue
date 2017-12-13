@@ -35,7 +35,7 @@
           :name="name"
           :id="id"
           type="search"
-          autocomplete="off"
+          autocomplete="false"
           :placeholder="placeholder"
           v-if="searchable"
           :style="inputStyle"
